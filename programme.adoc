@@ -1,0 +1,144 @@
+# Le solfège en 20 minutes
+
+But : répondre à des questions que vous ne vous posez pas.
+
+## C'est quoi un son ?
+
+Vibration de l'air
+
+## C'est quoi une note ?
+
+Son périodique
+
+
+Ex : Corde qui vibre
+
+Signal périodique => c'est l'addition d'une infinité de signaux parfaits (sinusoïdes) à des fréquences et volumes différents
+
+La plus forte en volume lui donne son nom: **la fondamentale**
+
+Appelons la 1.
+
+A la guitare on peut entendre les premières harmoniques en frottant à des endroits qui
+correspondent à des divisions entières de la longueur de la corde.
+
+Essayons avec la corde grave d'une guitare.
+
+
+
+|===
+|Case |Fraction |Intervalle
+
+|12
+|1/2
+|+1 octave
+
+|7
+|1/3
+|+1 octave+quinte
+
+|5
+|1/4
+|+2 octaves
+
+|4
+|1/5
+|+2 octaves + 1 tierce
+
+|3
+|1/6
+|+2 octaves + 1 quinte
+
+|===
+
+On sent intuitivement que la 1ère note c'est un peu la même que 1, appelons ces notes équivalentes "octaves".
+La deuxième on sent que c'est une autre note, appelons la 2.
+
+Il se trouve que c'est la même note que la 5ème corde.
+
+On recommence ! On obtient une troisième note, appelons la 3.
+
+Si on continue, on forme 12 notes différentes, et la 13ème reboucle sur la première.
+
+
+On a donc:
+
+- 12 notes
+- quand on en prend une, on peut lui en associer 2 autres qui sont les 2 premières harmoniques
+
+
+
+
+
+
+## C'est quoi un accord
+
+## C'est quoi une gamme  ?
+
+L'accord "majeur", c'est quand on joue les 3 notes précédentes ensemble.
+
+Appelons la première corde "Do", et jouons un accord de "Do Majeur".
+
+Prenons la première harmonique de "Do", appelons la "Sol".
+
+Si on répète l'exercice on obtient un autre accord, "Sol majeur", composé de 3 notes parmi les 12.
+
+Par symétrie, on peut construire un 3ème accord en partant d'une note dont "Do" est la première harmonique, appelons la "Fa"
+
+Lorsque l'on dédoublonne ces 3*3 notes en enlevant les notes "octaves", on obtient 7 notes parmi les 12.
+
+Si on les mets dans l'ordre on obtient ce qu'on appelle la "gamme de Do Majeur"
+
+Do ré mi fa sol la si
+
+Ce sont les notes blanches du piano.
+
+on place alors les 5 notes qui restent au milieu, ce sont les notes noires.
+
+Entre chaque note on a un 12ème d'octave, qu'on appelle un "demi-ton"
+
+ Do   ré   mi   fa   sol   la   si   (do)
+    1    1   1/2   1     1    1   1/2
+
+Dans les 3 accords "Majeurs" on a les intervalles 2 tons/1,5 tons
+
+Si on essaye d'inverser cet enchainement à partir des 7 notes, on voit qu'on peut construire 3 autres accords
+de la même manière, qu'on peut appeler "Mineurs", à partir des notes La, Ré, Mi
+
+On a donc un total de 6 accords qui sont harmoniquement proches de la note de départ Do:
+Fa Majeur / Do Majeur / Sol Majeur
+Ré mineur / La mineur / Mi mineur
+
+- 7 notes qui constituent un mode "majeur"
+- 6 accords "voisins" à partir d'une note donnée.
+
+
+
+https://muted.io/chord-progressions/
+
+https://muted.io/circle-of-fifths/
+
+
+## Design patterns
+
+
+Let it be (C 70)
+
+Hallelujah (C 80)
+
+With or without you (D 100)
+
+Losing my religion (Am 110)
+
+Island in the sun
+
+Wonderwall
+
+# A retenir
+
+- Une note en contient plusieurs autres (harmoniques), ce qui forme des accords car notre cerveau reconnait les notes qui "vont ensemble"
+- Un accord majeur est constitué d'une note et de ses 2 principales harmoniques
+- Par translation on obtient 2 autres accords majeurs proches
+- En inversant les intervalles on obtient 3 autres accords, appelés mineurs
+- Les 6 accords forment ce qu'on appelle des tons "voisins", base de la chanson populaire.
+
